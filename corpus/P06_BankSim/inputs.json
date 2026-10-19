@@ -1,0 +1,1 @@
+["dep a 50", "wd a 100", "wd a 99", "eom b; eom b; eom a", "wd b 2000; dep b 10", "dep a 0", "dep c 5", "zap a"]

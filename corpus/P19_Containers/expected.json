@@ -1,0 +1,50 @@
+[
+  {
+    "input": "pppP",
+    "return": "0,|2/0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "pqqqqqqqQQQ_P_k",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.EmptyContainerException: stack is empty"
+  },
+  {
+    "input": "",
+    "return": "|0/0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "P",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.EmptyContainerException: stack is empty"
+  },
+  {
+    "input": "Q",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.EmptyContainerException: queue is empty"
+  },
+  {
+    "input": "qqqqqqqqqQQQQQQQQQ",
+    "return": "0,0,0,0,0,0,0,0,0,|0/0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "ppkPPk",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.EmptyContainerException: stack is empty"
+  },
+  {
+    "input": "xyz",
+    "return": "xyz|0/0",
+    "stdout": "",
+    "exception": null
+  }
+]

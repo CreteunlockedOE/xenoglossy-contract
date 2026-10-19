@@ -1,0 +1,50 @@
+[
+  {
+    "input": "0",
+    "return": "1 ds=1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "5",
+    "return": "120 ds=3",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "30",
+    "return": "265252859812191058636308480000000 ds=117",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "12*12",
+    "return": "sum=24 prod=144",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "99999999999999999999*99999999999999999999",
+    "return": "sum=199999999999999999998 prod=9999999999999999999800000000000000000001",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "0*123",
+    "return": "sum=123 prod=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "12*x",
+    "return": null,
+    "stdout": "",
+    "exception": "System.FormatException: not a digit: x"
+  },
+  {
+    "input": "1*",
+    "return": "sum=1 prod=0",
+    "stdout": "",
+    "exception": null
+  }
+]

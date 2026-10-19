@@ -1,0 +1,50 @@
+[
+  {
+    "input": "1",
+    "return": "steps=0 peak=1 rec=0 best=2/1",
+    "stdout": "steps=0\n",
+    "exception": null
+  },
+  {
+    "input": "6",
+    "return": "steps=8 peak=16 rec=8 best=7/16",
+    "stdout": "steps=8\n",
+    "exception": null
+  },
+  {
+    "input": "27",
+    "return": "steps=111 peak=9232 rec=111 best=27/111",
+    "stdout": "steps=111\n",
+    "exception": null
+  },
+  {
+    "input": "97",
+    "return": "steps=118 peak=9232 rec=118 best=97/118",
+    "stdout": "steps=118\n",
+    "exception": null
+  },
+  {
+    "input": "871",
+    "return": "steps=178 peak=190996 rec=178 best=327/143",
+    "stdout": "steps=178\n",
+    "exception": null
+  },
+  {
+    "input": "837799",
+    "return": "steps=524 peak=2974984576 rec=524 best=231/127",
+    "stdout": "steps=524\n",
+    "exception": null
+  },
+  {
+    "input": "0",
+    "return": "invalid",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "9223372036854",
+    "return": "steps=245 peak=23346660468292 rec=245 best=327/143",
+    "stdout": "steps=245\n",
+    "exception": null
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "input": "3 4 +",
+    "return": "7",
+    "stdout": "steps: 3+4=7;\n",
+    "exception": null
+  },
+  {
+    "input": "5 1 2 + 4 * + 3 -",
+    "return": "14",
+    "stdout": "steps: 1+2=3;3*4=12;5+12=17;17-3=14;\n",
+    "exception": null
+  },
+  {
+    "input": "2 10 ^",
+    "return": "1024",
+    "stdout": "steps: 2^10=1024;\n",
+    "exception": null
+  },
+  {
+    "input": "2147483647 1 +",
+    "return": "-2147483648",
+    "stdout": "steps: 2147483647+1=-2147483648;\n",
+    "exception": null
+  },
+  {
+    "input": "7 -2 %",
+    "return": "1",
+    "stdout": "steps: 7%-2=1;\n",
+    "exception": null
+  },
+  {
+    "input": "1 0 /",
+    "return": null,
+    "stdout": "",
+    "exception": "System.DivideByZeroException: Attempted to divide by zero."
+  },
+  {
+    "input": "1 +",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.RpnException: stack underflow at '+'"
+  },
+  {
+    "input": "1 2 3",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.RpnException: leftover 3"
+  }
+]

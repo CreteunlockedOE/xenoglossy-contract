@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": "balanced depth=0 weight=0",
+    "stdout": "described -1\n",
+    "exception": null
+  },
+  {
+    "input": "()",
+    "return": "balanced depth=1 weight=1",
+    "stdout": "described -1\n",
+    "exception": null
+  },
+  {
+    "input": "([]{<>})",
+    "return": "balanced depth=3 weight=8",
+    "stdout": "described -1\n",
+    "exception": null
+  },
+  {
+    "input": "(()",
+    "return": "broken@3 depth=2 weight=3",
+    "stdout": "error at 3\ndescribed 3\n",
+    "exception": null
+  },
+  {
+    "input": "())",
+    "return": "broken@2 depth=1 weight=1",
+    "stdout": "error at 2\ndescribed 2\n",
+    "exception": null
+  },
+  {
+    "input": "([)]",
+    "return": "broken@2 depth=2 weight=3",
+    "stdout": "error at 2\ndescribed 2\n",
+    "exception": null
+  },
+  {
+    "input": "a(b[c]{d}<e>)f",
+    "return": "balanced depth=2 weight=7",
+    "stdout": "described -1\n",
+    "exception": null
+  },
+  {
+    "input": "((((((((((x))))))))))",
+    "return": "balanced depth=10 weight=55",
+    "stdout": "described -1\n",
+    "exception": null
+  }
+]

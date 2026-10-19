@@ -1,0 +1,50 @@
+[
+  {
+    "input": "0:...",
+    "return": "... alive=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1:.#./.#./.#.",
+    "return": ".../###/... alive=3",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2:.#./.#./.#.",
+    "return": ".#./.#./.#. alive=3",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "4:.#..../..#.../###.../...... /......",
+    "return": "....../..#.../...#../.###.../...... alive=5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "3:##/##",
+    "return": "##/## alive=4",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "5:#",
+    "return": ". alive=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1:",
+    "return": " alive=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "x:#",
+    "return": null,
+    "stdout": "",
+    "exception": "System.FormatException: The input string 'x' was not in a correct format."
+  }
+]

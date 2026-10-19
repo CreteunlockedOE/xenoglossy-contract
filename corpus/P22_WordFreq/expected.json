@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": "total=0 distinct=0 longest=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "the cat and the hat",
+    "return": "the=2 and=1 cat=1 hat=1 total=5 distinct=4 longest=3",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "To be, or not to be: that is the question",
+    "return": "be=2 to=2 is=1 not=1 total=10 distinct=8 longest=8",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a a a b b c",
+    "return": "a=3 b=2 c=1 total=6 distinct=3 longest=1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "Don't stop; don't ever stop!",
+    "return": "don't=2 stop=2 ever=1 total=5 distinct=3 longest=5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "   ...   ",
+    "return": "total=0 distinct=0 longest=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "one two three four five six seven",
+    "return": "five=1 four=1 one=1 seven=1 total=7 distinct=7 longest=5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "Same same SAME sAmE",
+    "return": "same=4 total=4 distinct=1 longest=4",
+    "stdout": "",
+    "exception": null
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": "fnv32=2166136261 fnv64=14695981039346656037 djb2=5381 java=0 xs=1176675959 mm=3231471997 bucket=5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a",
+    "return": "fnv32=3826002220 fnv64=12638187200555641996 djb2=177670 java=97 xs=679046558 mm=3776744762 bucket=12",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "hello",
+    "return": "fnv32=1335831723 fnv64=11831194018420276491 djb2=261238937 java=99162322 xs=3802445797 mm=2064605344 bucket=11",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "Hello",
+    "return": "fnv32=4116459851 fnv64=7201466553693376363 djb2=223289465 java=69609650 xs=2031957828 mm=702031389 bucket=11",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "The quick brown fox",
+    "return": "fnv32=2924308450 fnv64=2554721226862139266 djb2=2546203896 java=-1739336029 xs=4055121625 mm=847491514 bucket=2",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "0123456789012345678901234567890123456789",
+    "return": "fnv32=553869461 fnv64=5411409090916284405 djb2=1003271097 java=1478511252 xs=2515490801 mm=3764429568 bucket=5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "ünïcödé",
+    "return": "fnv32=2632344214 fnv64=13197631666596136534 djb2=3687460548 java=-609221899 xs=1176884044 mm=990920338 bucket=6",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "xenoglossy corpus",
+    "return": "fnv32=1208762308 fnv64=1940168298428011556 djb2=3205310396 java=-609986389 xs=2131711352 mm=2415947378 bucket=4",
+    "stdout": "",
+    "exception": null
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "input": "12 18 7",
+    "return": "gcd=6 lcm=36 bezout=-1,1 pow=1 wrap=0 inv=3 prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "17 5 101",
+    "return": "gcd=1 lcm=85 bezout=-2,7 pow=100 wrap=1419857 inv=6 prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "3 200 1000003",
+    "return": "gcd=1 lcm=600 bezout=67,-1 pow=333986 wrap=1 inv=666669 prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1000 24 97",
+    "return": "gcd=8 lcm=3000 bezout=-1,42 pow=22 wrap=0 inv=55 prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "7 7 7",
+    "return": "gcd=7 lcm=7 bezout=0,1 pow=0 wrap=823543 inv=none prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "-12 18 13",
+    "return": "gcd=6 lcm=-36 bezout=1,1 pow=1 wrap=0 inv=1 prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "65537 3 4294967291",
+    "return": "gcd=1 lcm=196611 bezout=-1,21846 pow=524304 wrap=196609 inv=3221241852 prime=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "5 0 11",
+    "return": "gcd=5 lcm=0 bezout=1,0 pow=1 wrap=1 inv=9 prime=True",
+    "stdout": "",
+    "exception": null
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "input": "0",
+    "return": "pop=0 rev=0 rotl=0 lz=32 pow2=False sar=0 shr=0 lsh=0 b=00000000 sb=0 us=0 neg=0 not=4294967295",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1",
+    "return": "pop=1 rev=2147483648 rotl=4 lz=31 pow2=True sar=0 shr=0 lsh=8589934592 b=00000001 sb=1 us=1 neg=-1 not=4294967294",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "255",
+    "return": "pop=8 rev=4278190080 rotl=65280 lz=24 pow2=False sar=31 shr=31 lsh=2190433320960 b=11111111 sb=-1 us=255 neg=-255 not=4294967040",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "-1",
+    "return": "pop=32 rev=4294967295 rotl=4294967295 lz=0 pow2=False sar=-1 shr=536870911 lsh=-8589934592 b=11111111 sb=-1 us=65535 neg=1 not=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "65536",
+    "return": "pop=1 rev=32768 rotl=131072 lz=15 pow2=True sar=8192 shr=8192 lsh=562949953421312 b=00000000 sb=0 us=0 neg=-65536 not=4294901759",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2147483648",
+    "return": "pop=1 rev=1 rotl=1 lz=0 pow2=True sar=-268435456 shr=268435456 lsh=0 b=00000000 sb=0 us=0 neg=-2147483648 not=2147483647",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "123456789",
+    "return": "pop=16 rev=2830359264 rotl=3606267201 lz=5 pow2=False sar=15432098 shr=15432098 lsh=1060485742448345088 b=00010101 sb=21 us=52501 neg=-123456789 not=4171510506",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "-9000000000",
+    "return": "pop=15 rev=6779367 rotl=3474836481 lz=0 pow2=False sar=-51258176 shr=485612736 lsh=-3522435033161793536 b=00000000 sb=0 us=58880 neg=410065408 not=410065407",
+    "stdout": "",
+    "exception": null
+  }
+]

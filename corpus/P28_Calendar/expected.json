@@ -1,0 +1,50 @@
+[
+  {
+    "input": "2000-02-29",
+    "return": "Tue doy=60 epoch=11016 leap=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1900-02-29",
+    "return": "invalid day",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1970-01-01",
+    "return": "Thu doy=1 epoch=0 leap=False",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2024-12-31",
+    "return": "Tue doy=366 epoch=20088 leap=True",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1969-07-20",
+    "return": "Sun doy=201 epoch=-165 leap=False",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2023-04-31",
+    "return": "invalid day",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2021-13-01",
+    "return": null,
+    "stdout": "",
+    "exception": "System.ArgumentOutOfRangeException: month 13 (Parameter 'm')"
+  },
+  {
+    "input": "2021-6",
+    "return": null,
+    "stdout": "",
+    "exception": "System.IndexOutOfRangeException: Index was outside the bounds of the array."
+  }
+]

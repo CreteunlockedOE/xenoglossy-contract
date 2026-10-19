@@ -1,0 +1,50 @@
+[
+  {
+    "input": "enc:Man",
+    "return": "TWFu",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "enc:Ma",
+    "return": "TWE=",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "enc:M",
+    "return": "TQ==",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "dec:TWFu",
+    "return": "Man",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "dec:TWE=",
+    "return": "Ma",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "roundtrip text",
+    "return": "cm91bmR0cmlwIHRleHQ=|14",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "dec:TW*u",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.Base64Exception: bad char '*' at 2"
+  },
+  {
+    "input": "dec:TWF",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.Base64Exception: bad length 3 at 3"
+  }
+]

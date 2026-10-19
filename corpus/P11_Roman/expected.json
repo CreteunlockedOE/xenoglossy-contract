@@ -1,0 +1,50 @@
+[
+  {
+    "input": "1994",
+    "return": "MCMXCIV back=1994",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "3999",
+    "return": "MMMCMXCIX back=3999",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "4",
+    "return": "IV back=4",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "MCMXCIV",
+    "return": "1994 canonical",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "iiii",
+    "return": "4 odd",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "XLII",
+    "return": "42 canonical",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "hello",
+    "return": "not roman",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "4000",
+    "return": null,
+    "stdout": "",
+    "exception": "System.ArgumentOutOfRangeException: out of range: 4000 (Parameter 'n')"
+  }
+]

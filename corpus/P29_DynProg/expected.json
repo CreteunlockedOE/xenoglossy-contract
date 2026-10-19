@@ -1,0 +1,50 @@
+[
+  {
+    "input": "kitten,sitting",
+    "return": "lcs=4(ittn) edit=3 knap=28",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "ABCBDAB,BDCABA",
+    "return": "lcs=4(BCBA) edit=5 knap=26",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": ",abc",
+    "return": "lcs=0() edit=3 knap=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "abc,",
+    "return": "lcs=0() edit=3 knap=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "same,same",
+    "return": "lcs=4(same) edit=0 knap=21",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "flaw,lawn",
+    "return": "lcs=3(law) edit=2 knap=21",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "AGGTAB,GXTXAYB",
+    "return": "lcs=4(GTAB) edit=4 knap=29",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "nocomma",
+    "return": null,
+    "stdout": "",
+    "exception": "System.IndexOutOfRangeException: Index was outside the bounds of the array."
+  }
+]

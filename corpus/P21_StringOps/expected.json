@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": "|True||0||~|0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a",
+    "return": "a|True|d|1|A|a~|a1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "A man, a plan, a canal: Panama",
+    "return": "amanaP :lanac a ,nalp a ,nam A|True|D pdq, d sodq, d fdqdo: Sdqdpd|10|A Man, A Plan, A Canal: Panama|A m~ama|A man, a plan, a canal: Panama30",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "hello world",
+    "return": "dlrow olleh|False|khoor zruog|3|Hello World|hel~rld|hello world11",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "Zebra XYZ xyz",
+    "return": "zyx ZYX arbeZ|False|Cheud ABC abc|2|Zebra Xyz Xyz|Zeb~xyz|Zebra XYZ xyz13",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "ABCDEFGH",
+    "return": "HGFEDCBA|False|DEFGHIJK|2|Abcdefgh|ABC~FGH|ABCDEFGH8",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "mIxEd CaSe wOrDs",
+    "return": "sDrOw eSaC dExIm|False|pLaHg FdVh zRuGv|5|Mixed Case Words|mIx~rDs|mIxEd CaSe wOrDs16",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "12321",
+    "return": "12321|True|12321|0|12321|123~321|123215",
+    "stdout": "",
+    "exception": null
+  }
+]

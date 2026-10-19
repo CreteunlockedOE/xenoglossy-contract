@@ -1,0 +1,50 @@
+[
+  {
+    "input": "x = 42 + y1;",
+    "return": "6:I(x)O(=)N(42)O(+)I(y1)O(;):18",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "if (a >= 10) { b = \"hi\"; }",
+    "return": "12:I(if)O(()I(a)O(>=)N(10)O())O({)I(b)O(=)S(2)O(;)O(}):15",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "",
+    "return": "0::0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "foo_bar==baz != 7",
+    "return": "5:I(foo_bar)O(==)I(baz)O(!=)N(7):14",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "\"esc \\\" q\" + 1",
+    "return": "3:S(7)O(+)N(1):8",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a $ b",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.LexException: unexpected '$' @2"
+  },
+  {
+    "input": "\"open",
+    "return": null,
+    "stdout": "",
+    "exception": "Corpus.LexException: unterminated string @0"
+  },
+  {
+    "input": "1 2 3 4 5 6 7 8 9 10",
+    "return": "10:N(1)N(2)N(3)N(4)N(5)N(6)N(7)N(8)N(9)N(10):123",
+    "stdout": "",
+    "exception": null
+  }
+]
