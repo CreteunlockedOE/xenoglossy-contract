@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Xeno.Contract</RootNamespace>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AsmResolver.DotNet" Version="$(AsmResolverVersion)" />
+  </ItemGroup>
+</Project>
