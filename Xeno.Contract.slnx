@@ -5,4 +5,38 @@
   <Folder Name="/tests/">
     <Project Path="tests/Xeno.Contract.Tests/Xeno.Contract.Tests.csproj" />
   </Folder>
+  <Folder Name="/corpus/">
+    <Project Path="corpus/P01_Crc32/P01_Crc32.csproj" />
+    <Project Path="corpus/P02_Base64/P02_Base64.csproj" />
+    <Project Path="corpus/P03_RpnCalc/P03_RpnCalc.csproj" />
+    <Project Path="corpus/P04_Rle/P04_Rle.csproj" />
+    <Project Path="corpus/P05_Sieve/P05_Sieve.csproj" />
+    <Project Path="corpus/P06_BankSim/P06_BankSim.csproj" />
+    <Project Path="corpus/P07_Tokenizer/P07_Tokenizer.csproj" />
+    <Project Path="corpus/P08_MatMul/P08_MatMul.csproj" />
+    <Project Path="corpus/P09_Collatz/P09_Collatz.csproj" />
+    <Project Path="corpus/P10_Luhn/P10_Luhn.csproj" />
+    <Project Path="corpus/P11_Roman/P11_Roman.csproj" />
+    <Project Path="corpus/P12_BinSearch/P12_BinSearch.csproj" />
+    <Project Path="corpus/P13_Sorts/P13_Sorts.csproj" />
+    <Project Path="corpus/P14_Hashes/P14_Hashes.csproj" />
+    <Project Path="corpus/P15_NumTheory/P15_NumTheory.csproj" />
+    <Project Path="corpus/P16_StateMachine/P16_StateMachine.csproj" />
+    <Project Path="corpus/P17_StatusCodes/P17_StatusCodes.csproj" />
+    <Project Path="corpus/P18_Shapes/P18_Shapes.csproj" />
+    <Project Path="corpus/P19_Containers/P19_Containers.csproj" />
+    <Project Path="corpus/P20_Brackets/P20_Brackets.csproj" />
+    <Project Path="corpus/P21_StringOps/P21_StringOps.csproj" />
+    <Project Path="corpus/P22_WordFreq/P22_WordFreq.csproj" />
+    <Project Path="corpus/P23_Recursion/P23_Recursion.csproj" />
+    <Project Path="corpus/P24_BitTricks/P24_BitTricks.csproj" />
+    <Project Path="corpus/P25_Life/P25_Life.csproj" />
+    <Project Path="corpus/P26_Inventory/P26_Inventory.csproj" />
+    <Project Path="corpus/P27_NumWords/P27_NumWords.csproj" />
+    <Project Path="corpus/P28_Calendar/P28_Calendar.csproj" />
+    <Project Path="corpus/P29_DynProg/P29_DynProg.csproj" />
+    <Project Path="corpus/P30_BigDigits/P30_BigDigits.csproj" />
+    <Project Path="corpus/Xeno.Corpus.Capture/Xeno.Corpus.Capture.csproj" />
+    <Project Path="corpus/Xeno.Corpus.Tests/Xeno.Corpus.Tests.csproj" />
+  </Folder>
 </Solution>

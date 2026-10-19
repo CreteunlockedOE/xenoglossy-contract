@@ -1,0 +1,50 @@
+[
+  {
+    "input": "dep a 50",
+    "return": "ok,total=1150 created=2",
+    "stdout": "chk:150\n",
+    "exception": null
+  },
+  {
+    "input": "wd a 100",
+    "return": "NSF(1),total=1100 created=2",
+    "stdout": "chk:100\n",
+    "exception": null
+  },
+  {
+    "input": "wd a 99",
+    "return": "ok,total=1000 created=2",
+    "stdout": "chk:0\n",
+    "exception": null
+  },
+  {
+    "input": "eom b; eom b; eom a",
+    "return": "ok,ok,ok,total=1145 created=2",
+    "stdout": "sav:1025\nsav:1050\nchk:95\n",
+    "exception": null
+  },
+  {
+    "input": "wd b 2000; dep b 10",
+    "return": "NSF(1000),ok,total=1110 created=2",
+    "stdout": "sav:1000\nsav:1010\n",
+    "exception": null
+  },
+  {
+    "input": "dep a 0",
+    "return": null,
+    "stdout": "chk:100\n",
+    "exception": "System.ArgumentException: bad amount 0"
+  },
+  {
+    "input": "dep c 5",
+    "return": null,
+    "stdout": "",
+    "exception": "System.IndexOutOfRangeException: Index was outside the bounds of the array."
+  },
+  {
+    "input": "zap a",
+    "return": null,
+    "stdout": "chk:100\n",
+    "exception": "System.InvalidOperationException: unknown zap"
+  }
+]

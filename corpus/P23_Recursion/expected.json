@@ -1,0 +1,50 @@
+[
+  {
+    "input": "0",
+    "return": "fibm=0 fibi=0 fact=1 ack=3 hanoi=0[] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1",
+    "return": "fibm=1 fibi=1 fact=1 ack=5 hanoi=1[AC] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "5",
+    "return": "fibm=5 fibi=5 fact=120 ack=13 hanoi=31[AC AB CB AC BA BC AC AB] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "10",
+    "return": "fibm=55 fibi=55 fact=3628800 ack=11 hanoi=1023[AB AC BC AB CA CB AB AC] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "20",
+    "return": "fibm=6765 fibi=6765 fact=2432902008176640000 ack=7 hanoi=255[AB AC BC AB CA CB AB AC] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "25",
+    "return": "fibm=75025 fibi=75025 fact=7034535277573963776 ack=5 hanoi=1[AC] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "-3",
+    "return": "fibm=-3 fibi=-3 fact=1 ack=9 hanoi=0[] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "90",
+    "return": "fibm=2880067194370816120 fibi=55 fact=0 ack=3 hanoi=63[AB AC BC AB CA CB AB AC] depth=err:bottom reached",
+    "stdout": "",
+    "exception": null
+  }
+]

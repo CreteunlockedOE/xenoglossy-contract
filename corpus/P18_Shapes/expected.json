@@ -1,0 +1,50 @@
+[
+  {
+    "input": "r:3:4",
+    "return": "rect[12/14] total=12 n=1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "s:5 s:1",
+    "return": "square[25/20] (sq) square[1/4] (sq) total=26 n=2",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "t:3:4:5",
+    "return": "tri[6/12] total=6 n=1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "t:1:1:5",
+    "return": "tri[-1/7] total=-1 n=1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "r:2:3 s:4 t:6:8:10",
+    "return": "rect[6/10] square[16/16] (sq) tri[24/24] total=46 n=3",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "q:1",
+    "return": null,
+    "stdout": "",
+    "exception": "System.ArgumentException: shape? q"
+  },
+  {
+    "input": "r:100000:100000",
+    "return": "rect[1410065408/400000] total=1410065408 n=1",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "r:3",
+    "return": null,
+    "stdout": "",
+    "exception": "System.IndexOutOfRangeException: Index was outside the bounds of the array."
+  }
+]

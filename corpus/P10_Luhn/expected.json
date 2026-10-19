@@ -1,0 +1,50 @@
+[
+  {
+    "input": "4539 1488 0343 6467",
+    "return": "valid brand=visa check=7 len=16",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "4539 1488 0343 6468",
+    "return": "bad brand=visa check=7 len=16",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "378282246310005",
+    "return": "valid brand=amex check=5 len=15",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "5555555555554444",
+    "return": "valid brand=master check=4 len=16",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "6011-1111-1111-1117",
+    "return": "valid brand=disc check=7 len=16",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "12",
+    "return": "bad brand=unknown check=8 len=2",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1x34",
+    "return": "invalid",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "0",
+    "return": "invalid",
+    "stdout": "",
+    "exception": null
+  }
+]

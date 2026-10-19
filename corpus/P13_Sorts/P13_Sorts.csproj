@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Corpus.P13</AssemblyName>
+    <RootNamespace>Corpus</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,50 @@
+[
+  {
+    "input": "200",
+    "return": "200=OK/1-z",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "404 500",
+    "return": "404=Not Found/5-f 500=Server Error/9Rz",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "100 101 102",
+    "return": "100=Continue/0-z 101=Switching/0-o 102=Unknown/0-t",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "301 302 304 399",
+    "return": "301=Moved/2-o 302=Found/2-t 304=Not Modified/2-f 399=Unknown/2-n",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "418 429 503 504",
+    "return": "418=Teapot/5-g 429=Too Many/5Rn 503=Unavailable/9Rh 504=Unknown/9Rf",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1000 65535 0",
+    "return": "1000=Custom/-1-z 65535=Max/-1-v 0=Unknown/-1-z",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "408 -1",
+    "return": "408=Unknown/5Rg -1=Unknown/-1-?",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "twohundred",
+    "return": null,
+    "stdout": "",
+    "exception": "System.FormatException: The input string 'twohundred' was not in a correct format."
+  }
+]

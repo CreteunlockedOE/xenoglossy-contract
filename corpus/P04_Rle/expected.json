@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": " ok=True longest=0 ratio=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a",
+    "return": "a ok=True longest=1 ratio=100",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "aaabbbcccc",
+    "return": "3a3b4c ok=True longest=4 ratio=60",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "abcdef",
+    "return": "abcdef ok=True longest=1 ratio=100",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "wwwwwwwwwwwwbwwwwwwwwwwwwbbbwwwwwwwwwwwwwwwwwwwwwwwwbwwwwwwwwwwwwww",
+    "return": "12wb12w3b24wb14w ok=True longest=24 ratio=23",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+    "return": "99z15z ok=True longest=114 ratio=5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "aabbaabb",
+    "return": "2a2b2a2b ok=True longest=2 ratio=100",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "  spaces   here  ",
+    "return": "2 spaces3 here2  ok=True longest=3 ratio=94",
+    "stdout": "",
+    "exception": null
+  }
+]

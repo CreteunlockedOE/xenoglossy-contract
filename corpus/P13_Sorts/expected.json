@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": " swaps=0 sorted=True same=True",
+    "stdout": "bubble: \nquick: \n",
+    "exception": null
+  },
+  {
+    "input": "1",
+    "return": "1 swaps=0 sorted=True same=True",
+    "stdout": "bubble: 1\nquick: 1\n",
+    "exception": null
+  },
+  {
+    "input": "2 1",
+    "return": "1,2 swaps=1 sorted=True same=True",
+    "stdout": "bubble: 1,2\nquick: 1,2\n",
+    "exception": null
+  },
+  {
+    "input": "5 4 3 2 1",
+    "return": "1,2,3,4,5 swaps=10 sorted=True same=True",
+    "stdout": "bubble: 1,2,3,4,5\nquick: 1,2,3,4,5\n",
+    "exception": null
+  },
+  {
+    "input": "1 2 3 4 5",
+    "return": "1,2,3,4,5 swaps=0 sorted=True same=True",
+    "stdout": "bubble: 1,2,3,4,5\nquick: 1,2,3,4,5\n",
+    "exception": null
+  },
+  {
+    "input": "3 -1 4 -1 5 -9 2 6",
+    "return": "-9,-1,-1,2,3,4,5,6 swaps=11 sorted=True same=True",
+    "stdout": "bubble: -9,-1,-1,2,3,4,5,6\nquick: -9,-1,-1,2,3,4,5,6\n",
+    "exception": null
+  },
+  {
+    "input": "7 7 7 7",
+    "return": "7,7,7,7 swaps=0 sorted=True same=True",
+    "stdout": "bubble: 7,7,7,7\nquick: 7,7,7,7\n",
+    "exception": null
+  },
+  {
+    "input": "2147483647 -2147483648 0 x",
+    "return": null,
+    "stdout": "",
+    "exception": "System.FormatException: The input string 'x' was not in a correct format."
+  }
+]

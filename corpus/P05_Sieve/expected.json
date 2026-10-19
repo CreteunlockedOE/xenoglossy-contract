@@ -1,0 +1,50 @@
+[
+  {
+    "input": "1",
+    "return": "small",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2",
+    "return": "pi=1 largest=2 goldbach=- factor=2",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "10",
+    "return": "pi=4 largest=7 goldbach=3+7 factor=2*5",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "100",
+    "return": "pi=25 largest=97 goldbach=3+97 factor=2^2*5^2",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "97",
+    "return": "pi=25 largest=97 goldbach=- factor=97",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1000",
+    "return": "pi=168 largest=997 goldbach=3+997 factor=2^3*5^3",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "720720",
+    "return": "pi=58083 largest=720703 goldbach=17+720703 factor=2^4*3^2*5*7*11*13",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "abc",
+    "return": null,
+    "stdout": "",
+    "exception": "System.FormatException: The input string 'abc' was not in a correct format."
+  }
+]

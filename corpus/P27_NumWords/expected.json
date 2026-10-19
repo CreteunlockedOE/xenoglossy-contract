@@ -1,0 +1,50 @@
+[
+  {
+    "input": "0",
+    "return": "zero",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "7",
+    "return": "seven",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "13",
+    "return": "thirteen",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "42",
+    "return": "forty-two",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "100",
+    "return": "one hundred",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "101",
+    "return": "one hundred and one",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "-999",
+    "return": "minus nine hundred and ninety-nine",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "1234567890",
+    "return": "one billion two hundred and thirty-four million five hundred and sixty-seven thousand eight hundred and ninety",
+    "stdout": "",
+    "exception": null
+  }
+]

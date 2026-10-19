@@ -1,0 +1,50 @@
+[
+  {
+    "input": "1",
+    "return": "64/ trace=64",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "2,7",
+    "return": "52 -8/-8 80/ trace=132",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "3,42",
+    "return": "155 104 2/104 78 -2/2 -2 90/ trace=323",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "4,-5",
+    "return": "154 21 -73 29/21 125 -90 -35/-73 -90 125 42/29 -35 42 42/ trace=446",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "5,99999",
+    "return": "111 -23 54 61 -3/-23 141 -24 156 58/54 -24 128 35 -118/61 156 35 296 42/-3 58 -118 42 186/ trace=862",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "0",
+    "return": " trace=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "3",
+    "return": "73 -27 -82/-27 59 93/-82 93 181/ trace=313",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "-1",
+    "return": null,
+    "stdout": "",
+    "exception": "System.OverflowException: Array dimensions exceeded supported range."
+  }
+]

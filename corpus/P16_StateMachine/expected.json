@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": "final=0 path= counts=0.0.0.0.0.0.0.0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "abc 123",
+    "return": "final=2 path=102 counts=1.1.1.0.0.0.0.0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "x1y2 z",
+    "return": "final=1 path=101 counts=1.2.0.0.0.0.0.0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "\"a\\\"b\" c",
+    "return": "final=1 path=34301 counts=1.1.0.2.1.0.0.0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "// comment\nnext",
+    "return": "final=1 path=6501 counts=1.1.0.0.0.1.1.0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a / b",
+    "return": "final=1 path=10601 counts=2.2.0.0.0.0.1.0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "foo # stop here",
+    "return": "final=7 path=107 counts=1.1.0.0.0.0.0.1",
+    "stdout": "halt at 4\n",
+    "exception": null
+  },
+  {
+    "input": "12ab \"unterminated",
+    "return": "final=3 path=2103 counts=1.1.1.1.0.0.0.0",
+    "stdout": "",
+    "exception": null
+  }
+]

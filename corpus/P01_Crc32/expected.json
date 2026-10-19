@@ -1,0 +1,50 @@
+[
+  {
+    "input": "",
+    "return": "crc=00000000 adler=00000001 len=0 signed=0",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "a",
+    "return": "crc=e8b7be43 adler=00620062 len=1 signed=-390611389",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "123456789",
+    "return": "crc=cbf43926 adler=091e01de len=9 signed=-873187034",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "The quick brown fox jumps over the lazy dog",
+    "return": "crc=414fa339 adler=5bdc0fda len=43 signed=1095738169",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "xenoglossy",
+    "return": "crc=f975902b adler=17ba045c len=10 signed=-109735893",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "ÿþĀ",
+    "return": "crc=cbe621cc adler=04fc01fe len=3 signed=-874110516",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "return": "crc=1a998d7d adler=cc341e51 len=80 signed=446270845",
+    "stdout": "",
+    "exception": null
+  },
+  {
+    "input": "Hello, World!\n",
+    "return": "crc=b4e89e84 adler=24120474 len=14 signed=-1259823484",
+    "stdout": "",
+    "exception": null
+  }
+]
