@@ -1,10 +1,14 @@
-# Xenoglossy contract v1 (frozen)
+# Xenoglossy contract v1.1 (frozen)
+
+v1.1 (clarifications only, no API change): red add-only rule, the .NET 10 referee runtime, and `Next` on throw.
 
 Owned by the coordinator. If something here is wrong, flag it to the coordinator. Do not edit it yourself.
 
 ## Target
 
 - C# on .NET 8 (`net8.0`). Assemblies are read and written with AsmResolver 6.0.1.
+- The referee always runs on the **.NET 10 runtime** (net8.0 binaries roll forward). Exception messages are part of
+  the output and differ between runtimes, so expected results are only valid on that runtime.
 - Every program is deterministic: no clock, randomness, threads, IO, network, reflection, unsafe code or P/Invoke.
 
 ## Corpus program shape
@@ -65,6 +69,13 @@ For each VM × program, a match **passes** only if all of these hold:
 
 A VM is **broken** when at least 80% of corpus programs pass. Every gauntlet run records three counts per VM: programs
 passed, methods lifted cleanly, and programs that passed via fallback only.
+
+## Red rules (protected assembly shape)
+
+- **Add, never rename or remove.** Every type, method and field of the original keeps its exact full name and
+  signature, and every original method keeps a body. You may replace bodies and add types, methods, fields and resources.
+  The VM-free check matches methods by full name.
+- The output is a single assembly that runs on its own, with no extra files.
 
 ## Isolation
 

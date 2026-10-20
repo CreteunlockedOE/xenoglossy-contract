@@ -29,8 +29,9 @@ public sealed record TraceTouch(string Kind, string Access, string Target, Trace
 /// One executed IL instruction. One JSON line per event.
 /// <para><see cref="Pop"/>/<see cref="Push"/> are the values consumed and produced, bottom-to-top
 /// (the last element of <see cref="Pop"/> was the top of stack).</para>
-/// <para><see cref="Next"/> is the IL offset executed next in this frame (tells you which branch was taken);
-/// null for ret/throw. <see cref="Callee"/> is the actually-invoked method token for call/callvirt/calli/newobj
+/// <para><see cref="Next"/> is the IL offset executed next in this frame (tells you which branch was taken).
+/// For an instruction that throws (<see cref="Threw"/> set), Next is the handler start offset when the exception is
+/// caught in the same frame, otherwise null. Null for ret. <see cref="Callee"/> is the actually-invoked method token for call/callvirt/calli/newobj
 /// and delegate Invoke (after virtual resolution), if it is in a traced module.</para>
 /// </summary>
 public sealed record TraceEvent(long Seq, uint Method, int Offset, string Op)
